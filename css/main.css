@@ -74,8 +74,8 @@ p {
 }
 
 .btn:hover {
-  background-color: #333;
-  border: 1px solid #333;
+  background-color: #000;
+  border: 1px solid #000;
 }
 
 .btn-big {
