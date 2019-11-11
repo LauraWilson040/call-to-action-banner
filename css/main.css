@@ -1,10 +1,31 @@
 html {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.banner-content {
+  padding: 0 1.5rem;
+  position: absolute;
+  width: 100%;
+  bottom: 1.5rem;
+  max-width: 45em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0 0 1rem;
+  font-size: 3rem;
+  line-height: 1.4;
+}
