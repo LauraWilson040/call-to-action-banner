@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 *, *::before, *::after {
@@ -16,8 +16,8 @@ body {
   width: 100%;
 }
 
-.background {
-  display: block;
+.logo {
+  display: flex;
   width: 100%;
 }
 
@@ -25,7 +25,6 @@ body {
   position: relative;
   max-height: 500px;
   overflow: hidden;
-  max-height: 75vh;
 }
 
 .banner-content {
@@ -36,10 +35,13 @@ body {
   bottom: 1em;
   left: 50%;
   transform: translateX(-50%);
+
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 0 0 1rem;
   font-size: 3rem;
   line-height: 1.4;
@@ -55,8 +57,8 @@ p {
   max-width: 7em;
   min-width: 5em;
   color: #fff;
-  border: 1px solid #A9A9A9;
-  background-color: #A9A9A9;
+  border: 1px solid #a9a9a9;
+  background-color: #a9a9a9;
 
   border-radius: 5px;
 
